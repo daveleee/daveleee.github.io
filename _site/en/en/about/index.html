@@ -3,11 +3,18 @@
 <html>
 
 <head>
+  <!-- en
+  
+
+  
+    English published
+   -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>
-    Dave Lee
+    About - Dave Lee
+    
   </title>
 
   <meta name="description" content="A software engineer, hustler, activist, philanthropist">
@@ -20,99 +27,58 @@
   <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/404.html">
+  <link rel="canonical" href="http://localhost:4000/en/about/">
   <link rel="alternate" type="application/rss+xml" title="Dave Lee" href="/feed.xml">
 
-  <!-- Google Search Console -->
-  <meta name="google-site-verification" content="2ew0knKrjpwyKB9NVabMMMYJxhzSXPdzklKRout5J7M" />
-  <!-- Google Adsense -->
-  <script data-ad-client="ca-pub-6000023353398854" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- Keep language setting depending on what is selected
+  <!-- <script>
+      var lang = navigator.language || navigator.userLanguage;
+      if (lang.indexOf('ko') == 0)
+          window.location = '/ko/';
+      else
+          window.location = '/en/';
+  </script> -->
 </head>
 
 
 <body>
 
-  <!-- http://localhost:4000/en/404.html -->
-
+  <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
-  
-  
-    <a class="navbar-brand" href="/en/">Dave Lee</a>
-  
+    <a class="navbar-brand" href="/">Dave Lee</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu
       <i class="fa fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
-        </li> -->
         <li class="nav-item">
-        
-        
-          <a class="nav-link" href="/en/about">About</a>
-        
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="/posts">Posts</a>
         </li> -->
-
-        <!-- Portfolio category -->
-        <!-- <li class="nav-item dropdown show">
-          <a class="nav-link dropdown-toggle" href="<script>$('.dropdown-toggle').dropdown()</script>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Portfolio </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          
-          
-            <a class="dropdown-item" href="/en/fannstar">FAN N STAR</a>
-            <a class="dropdown-item" href="/en/thefact">THE FACT</a>
-            <a class="dropdown-item" href="/en/lunchid">LUNCH ID</a>
-            <a class="dropdown-item" href="/en/cooperhewitt">Cooper Hewitt Museum</a>
-            <a class="dropdown-item" href="/en/restaurantweeknyc">Restaurant Week NYC</a>
-            <a class="dropdown-item" href="/en/basketballcoachboard">Basketball Coach Board</a>
-          
-          </div>
-        </li> -->
-
-        <!-- Tech category -->
         <li class="nav-item dropdown show">
-          <a class="nav-link dropdown-toggle" href="<script>$('.dropdown-toggle').dropdown()</script>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Tech </a>
+          <a class="nav-link dropdown-toggle" href="<script>$('.dropdown-toggle').dropdown()</script>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Posts </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          
-          
-            <a class="dropdown-item" href="/en/github_blog">Github Blog</a>
-            <!-- <a class="dropdown-item" href="#">Test</a> -->
-          
+            <a class="dropdown-item" href="#">Test1</a>
+            <a class="dropdown-item" href="#">Test2</a>
           </div>
         </li>
-
-        <!-- Essay category -->
-        <li class="nav-item dropdown show">
-          <a class="nav-link dropdown-toggle" href="<script>$('.dropdown-toggle').dropdown()</script>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Essay </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          
-          
-            <a class="dropdown-item" href="/en/grad_school_us">Grad School in the US</a>
-            <!-- <a class="dropdown-item" href="#">Test</a> -->
-          
-          </div>
-        </li>
-
-        <!-- Contact category -->
         <li class="nav-item">
-        
-        
-          <a class="nav-link" href="/en/contact">Contact</a>
-        
+          <a class="nav-link" href="/contact">Contact</a>
         </li>
         <li class = "nav-item dropdown show" >
           <a class="nav-link dropdown-toggle" href="<script>$('.dropdown-toggle').dropdown()</script>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-language fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-language" aria-hidden="true"></i>
           </a>
           <div class="dropdown-menu" area-labelledby="navbarDropdown">
-            <a class="dropdown-item menu-ko" href="http://localhost:4000/404.html">한국어</a>
-            <a class="dropdown-item menu-en" href="http://localhost:4000/en/404.html">English</a>
+            <a class="dropdown-item menu-ko" href="http://127.0.0.1:4000/">한국어</a>
+            <a class="dropdown-item menu-en" href="http://127.0.0.1:4000/en">English</a>
           </div>
         </li>
       </ul>
@@ -135,26 +101,44 @@
 </script>
 
 
-  <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+  <!-- Page Header -->
 
-<div class="container">
-  <h1>404</h1>
+<header class="masthead" style="background-image: url('/img/bg-about.jpg')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About</h1>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p>About this blog</p>
+
+<p>This is the base Jekyll theme!. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="https://jekyllrb.com/">jekyllrb.com</a></p>
+
+<p>You can find the source code for Minima at GitHub:
+<a href="https://github.com/jekyll">jekyll</a> /
+<a href="https://github.com/jekyll/minima">minima</a></p>
+
+<p>You can find the source code for Jekyll at GitHub:
+<a href="https://github.com/jekyll">jekyll</a> /
+<a href="https://github.com/jekyll/jekyll">jekyll</a></p>
+
+
+
+      </div>
+    </div>
+  </div>
 
 
   <!-- Footer -->
@@ -217,7 +201,7 @@
           </li>
           
         </ul>
-        <p class="copyright text-muted">Copyright &copy; Dave Lee 2020</p>
+        <p class="copyright text-muted">Copyright &copy; Dave Lee 2019</p>
       </div>
     </div>
   </div>
