@@ -1,0 +1,115 @@
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+  {% if site.default_lang == "ko" %}
+    <a class="navbar-brand" href="{{"/" | relative_url }}">{{ site.author }}</a>
+  {% else %}
+    <a class="navbar-brand" href="{{"/en/" | relative_url }}">{{ site.author }}</a>
+  {% endif %}
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="{{"/" | relative_url }}">Home</a>
+        </li> -->
+        <li class="nav-item">
+        {% if site.default_lang == "ko" %}
+          <a class="nav-link" href="{{"/about" | relative_url }}">About</a>
+        {% else %}
+          <a class="nav-link" href="{{"/en/about" | relative_url }}">About</a>
+        {% endif %}
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="{{ "/posts" | relative_url }}">Posts</a>
+        </li> -->
+
+        <!-- Portfolio category -->
+        <!-- <li class="nav-item dropdown show">
+          <a class="nav-link dropdown-toggle" href="<script>$('.dropdown-toggle').dropdown()</script>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Portfolio </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          {% if site.default_lang == "ko" %}
+            <a class="dropdown-item" href="{{"/fannstar" | relative_url }}"> 팬앤스타</a>
+            <a class="dropdown-item" href="{{"/thefact" | relative_url }}">더팩트</a>
+            <a class="dropdown-item" href="{{"/lunchid" | relative_url }}">런치아이디</a>
+            <a class="dropdown-item" href="{{"/cooperhewitt" | relative_url }}">쿠퍼휴잇 박물관</a>
+            <a class="dropdown-item" href="{{"/restaurantweeknyc" | relative_url }}">뉴욕 레스토랑 위크</a>
+            <a class="dropdown-item" href="{{"/basketballcoachboard" | relative_url }}">허재가 농구허재</a>
+          {% else %}
+            <a class="dropdown-item" href="{{"/en/fannstar" | relative_url }}">FAN N STAR</a>
+            <a class="dropdown-item" href="{{"/en/thefact" | relative_url }}">THE FACT</a>
+            <a class="dropdown-item" href="{{"/en/lunchid" | relative_url }}">LUNCH ID</a>
+            <a class="dropdown-item" href="{{"/en/cooperhewitt" | relative_url }}">Cooper Hewitt Museum</a>
+            <a class="dropdown-item" href="{{"/en/restaurantweeknyc" | relative_url }}">Restaurant Week NYC</a>
+            <a class="dropdown-item" href="{{"/en/basketballcoachboard" | relative_url }}">Basketball Coach Board</a>
+          {% endif %}
+          </div>
+        </li> -->
+
+        <!-- Tech category -->
+        <li class="nav-item dropdown show">
+          <a class="nav-link dropdown-toggle" href="<script>$('.dropdown-toggle').dropdown()</script>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Tech </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          {% if site.default_lang == "ko" %}
+            <a class="dropdown-item" href="{{"/github_blog" | relative_url }}">깃허브 블로그</a>
+            <!-- <a class="dropdown-item" href="#">테스트</a> -->
+          {% else %}
+            <a class="dropdown-item" href="{{"/en/github_blog" | relative_url }}">GitHub Blog</a>
+            <!-- <a class="dropdown-item" href="#">Test</a> -->
+          {% endif %}
+          </div>
+        </li>
+
+        <!-- Essay category -->
+        <li class="nav-item dropdown show">
+          <a class="nav-link dropdown-toggle" href="<script>$('.dropdown-toggle').dropdown()</script>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Essay </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          {% if site.default_lang == "ko" %}
+            <a class="dropdown-item" href="{{"/grad_school_us" | relative_url }}">뉴욕대 생활</a>
+            <!-- <a class="dropdown-item" href="#">테스트</a> -->
+          {% else %}
+            <a class="dropdown-item" href="{{"/en/grad_school_us" | relative_url }}">NYU Life</a>
+            <!-- <a class="dropdown-item" href="#">Test</a> -->
+          {% endif %}
+          </div>
+        </li>
+
+        <!-- Contact category -->
+        <li class="nav-item">
+        {% if site.default_lang == "ko" %}
+          <a class="nav-link" href="{{"/contact" | relative_url }}">Contact</a>
+        {% else %}
+          <a class="nav-link" href="{{"/en/contact" | relative_url }}">Contact</a>
+        {% endif %}
+        </li>
+        <li class = "nav-item dropdown show" >
+          <a class="nav-link dropdown-toggle" href="<script>$('.dropdown-toggle').dropdown()</script>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-language fa-2x" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu" area-labelledby="navbarDropdown">
+            <a class="dropdown-item menu-ko" href="https://daveleee.github.io{{page.url}}">한국어</a>
+            <a class="dropdown-item menu-en" href="{{ site.url }}/en{{ page.url }}">English</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- <div class="btn-group-sm btn-translate-group dropdown">
+      <button style="font: normal normal normal 14px/1 FontAwesome" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-language" aria-hidden="true"></i>
+      </button>
+      <div class="dropdown-menu" >
+        <a class="dropdown-item menu-ko" href="/ko/jekyll/multi-languages-plugin/">한국어</a>
+        <a class="dropdown-item menu-en" href="/en/jekyll/multi-languages-plugin/">English</a>
+        <a class="dropdown-item menu-ja" href="/jekyll/multi-languages-plugin/">日本語</a>
+      </div>
+    </div> -->
+  </div>
+</nav>
+
+<script type="text/javascript">
+  $('.dropdown-toggle').dropdown()
+  // $(document).ready(function() {
+  //   $(".dropdown-toggle").dropdown();
+  // });
+</script>
