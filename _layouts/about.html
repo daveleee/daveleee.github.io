@@ -1,0 +1,291 @@
+---
+layout: default
+comments: true
+---
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>{{ page.title }}</h1>
+            {% if page.description %}
+            <span class="subheading">{{ page.description }}</span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About from .md file -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        {{ content }}
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap Toggle -->
+  <div class="panel-group" id="accordion">
+
+    <!-- Interests -->
+    <div class="panel panel-default container">
+      <div class="panel-heading row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+            Interests</a>
+          </h2>
+        <div id="collapse1" class="panel-collapse collapse">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="panel panel-default container">
+      <div class="panel-heading row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+            Projects</a>
+          </h2>
+        <div id="collapse2" class="panel-collapse collapse">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education -->
+    <div class="panel panel-default container">
+      <div class="panel-heading row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+            Education</a>
+          </h2>
+        <div id="collapse3" class="panel-collapse collapse">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work Experience -->
+    <div class="panel panel-default container">
+      <div class="panel-heading row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+              Work Experience</a>
+          </h2>
+        <div id="collapse4" class="panel-collapse collapse">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Media -->
+    <div class="panel panel-default container">
+      <div class="panel-heading row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+              Media</a>
+          </h2>
+        <div id="collapse5" class="panel-collapse collapse">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Honors and Awards -->
+    <div class="panel panel-default container">
+      <div class="panel-heading row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+              Honors and Awards</a>
+          </h2>
+        <div id="collapse6" class="panel-collapse collapse">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scholarships -->
+    <div class="panel panel-default container">
+      <div class="panel-heading row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+              Scholarships</a>
+          </h2>
+        <div id="collapse7" class="panel-collapse collapse">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="panel panel-default container">
+      <div class="panel-heading row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+              Technical Skills</a>
+          </h2>
+        <div id="collapse8" class="panel-collapse collapse">
+          <div class="panel-body">
+            <p>
+              <span style="color:#999999;">Specialty</span>&nbsp; Web and App Technology, Machine Learning, Virtual Reality, Cyber Physical System<br>
+              <span style="color:#999999;">Languages</span>&nbsp; Python, PHP, Java, MATLAB, JavaScript, C/C++/C#, HTML, CSS, VRML, XML, SQL, Swift<br>
+              <span style="color:#999999;">Database</span>&nbsp; MySQL, Oracle Database, MSSQL, SQLite<br />
+              <span style="color:#999999;">Framework</span>&nbsp; Laravel, WordPress, Bootstrap, jQuery<br />
+              <span style="color:#999999;">Platform</span>&nbsp; Source Tree, MySQL Workbench, MAMP, Android Studio, Amazon EC2/S3, Google Analytics, Panotour Pro, FileZilla, Trello, Slack, Unity3D, Photoshop, Premiere Pro, etc.<br />
+            </p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Language Proficiency -->
+    <div class="panel panel-default container">
+      <div class="panel-heading row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">
+              Language Proficiency</a>
+          </h2>
+        <div id="collapse9" class="panel-collapse collapse">
+          <div class="panel-body">
+            Fluent in <b>English</b> and <b>Korean</b>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Extracurricular Activities -->
+    <div class="panel panel-default container">
+      <div class="panel-heading row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">
+              Extracurricular Activities</a>
+          </h2>
+        <div id="collapse10" class="panel-collapse collapse">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="panel panel-default container">
+      <div class="panel-heading row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">
+              Projects</a>
+          </h2>
+        <div id="collapse11" class="panel-collapse collapse">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+  <!-- Interests -->
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <h2>Interests</h2>
+
+      </div>
+    </div>
+  </div> -->
+<br />
+
+<!-- Buy me a coffee -->
+  <center>
+    <style>.bmc-button img{width: 35px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 10px 7px 10px !important;line-height: 35px !important;height:51px !important;min-width:217px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#FF5F5F !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 10px 7px 10px !important;font-size: 22px !important;letter-spacing: 0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/APdRptN"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:15px;font-size:28px !important;">Buy me a coffee</span></a>
+  </center>
+  <br />
+<!-- /. Buy me a coffee -->
+
+  <!-- Comments (Disqus) -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div id="disqus_thread"></div>
+          <script>
+
+          /**
+          *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+          *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+          /*
+          var disqus_config = function () {
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+          */
+          (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://daveleee.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+          })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </div>
+    </div>
+  </div>
+  <!-- /. Comments End (Disqus) -->

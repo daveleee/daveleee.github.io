@@ -1,0 +1,84 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Dave Lee
+author: Dave Lee
+headline: 감정은 인간을 이끌고 이성은 소프트웨어를 이끌어간다.
+headline_en: Emotions lead humans and intellect drives software.
+email: dl3996@nyu.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  A software engineer, hustler, activist, philanthropist
+intro: 지극히 개인적인 블로그입니다. 누구를 위해 블로그를 쓰는게 아니라 단지 한 일을 기록하거나 생각하는 것을 기록할 뿐입니다. 그래서 틀린 것도 많고 여러분과 다른 생각을 가지고 있을 수 있습니다. 비난과 비판보다 지식과 생각을 함께 공유할 수 있으면 좋을 거 같습니다. 피드백은 언제나 환영입니다. 당신의 지식과 생각을 나눠주고 가르쳐 준다면 큰 도움이 될 것 입니다.
+intro_en: A personal blog that deals with Information Technology and stuff. It is not for someone but for documenting what I have done and thought. It could be a different options from yours. It will be great to share knowledge and thoughts rather than criticism. Feedbacks always welcome. It will be really helpful to share your knowledge and ideas.
+baseurl: "/" # the subpath of your site, e.g. /blog
+# {% if online == false %}
+#     <p>The website is in maintenance mode.</p>
+# {% endif %}
+url: "https://daveleee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Social Profiles
+twitter_username:   doauy612
+github_username:    daveleee
+facebook_username:  daehee.lee.1133
+linkedin_username:  developerdavelee
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-79727352-2 # out your google-analytics code
+
+# Build settings
+# highlighter: true
+markdown: kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+theme: jekyll-theme-clean-blog
+# remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+  - jekyll-polyglot # Add language pack
+
+# Multi languages support
+languages: ["ko", "en"]
+default_lang: "ko"
+exclude_from_localization: ["js", "img", "css"]
+parallel_localization: true
+
+# Pagination
+# plugins:
+#   - jekyll-paginate-v2
+# permalink: /:year/:month/
+# pagination:
+#   enabled: true
+#   per_page: 12
+#   sort_reverse: true
+#   sort_field: 'date'
+#   title: ':title'
+#   trail:
+#     before: 2
+#     after: 2
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
