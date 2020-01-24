@@ -1,19 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://daveleee.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://daveleee.github.io/" rel="alternate" type="text/html" /><updated>2019-12-29T13:20:27-05:00</updated><id>http://daveleee.github.io/feed.xml</id><title type="html">Dave Lee</title><subtitle>A software engineer, hustler, activist, philanthropist</subtitle><author><name>Dave Lee</name></author><entry xml:lang="en"><title type="html">Started GitHub Blog!</title><link href="http://daveleee.github.io/github_blog/githubBlog/2019/12/28" rel="alternate" type="text/html" title="Started GitHub Blog!" /><published>2019-12-27T10:00:00-05:00</published><updated>2019-12-27T10:00:00-05:00</updated><id>http://daveleee.github.io/github_blog/githubBlog/2019/12/github-blog-en</id><content type="html" xml:base="http://daveleee.github.io/github_blog/githubBlog/2019/12/28">&lt;p&gt;My first post for github blog!!!&lt;/p&gt;</content><author><name>Dave Lee</name></author><summary type="html">My first post for github blog!!!</summary></entry><entry xml:lang="en"><title type="html">Test post!</title><link href="http://daveleee.github.io/test/multiLanguagePlugin/2019/08/04" rel="alternate" type="text/html" title="Test post!" /><published>2019-08-03T11:00:00-04:00</published><updated>2019-08-03T11:00:00-04:00</updated><id>http://daveleee.github.io/test/multiLanguagePlugin/2019/08/multi-languages-plugin-en</id><content type="html" xml:base="http://daveleee.github.io/test/multiLanguagePlugin/2019/08/04">&lt;p&gt;This is a test post for language plugin.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://daveleee.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://daveleee.github.io/" rel="alternate" type="text/html" /><updated>2019-12-29T13:20:27-05:00</updated><id>http://daveleee.github.io/feed.xml</id><title type="html">Dave Lee</title><subtitle>A software engineer, hustler, activist, philanthropist</subtitle><author><name>Dave Lee</name></author><entry xml:lang="ko"><title type="html">깃허브 블로그 시작!</title><link href="http://daveleee.github.io/github_blog/githubBlog/2019/12/28" rel="alternate" type="text/html" title="깃허브 블로그 시작!" /><published>2019-12-27T10:00:00-05:00</published><updated>2019-12-27T10:00:00-05:00</updated><id>http://daveleee.github.io/github_blog/githubBlog/2019/12/github-blog-ko</id><content type="html" xml:base="http://daveleee.github.io/github_blog/githubBlog/2019/12/28">&lt;p&gt;깃허브 블로그 시작!!!&lt;/p&gt;</content><author><name>Dave Lee</name></author><summary type="html">깃허브 블로그 시작!!!</summary></entry><entry xml:lang="ko"><title type="html">테스트 포스트!</title><link href="http://daveleee.github.io/test/multiLanguagePlugin/2019/08/04" rel="alternate" type="text/html" title="테스트 포스트!" /><published>2019-08-03T11:00:00-04:00</published><updated>2019-08-03T11:00:00-04:00</updated><id>http://daveleee.github.io/test/multiLanguagePlugin/2019/08/multi-languages-plugin-ko</id><content type="html" xml:base="http://daveleee.github.io/test/multiLanguagePlugin/2019/08/04">&lt;p&gt;언어 플러그인을 위한 테스트 포스트입니다.&lt;/p&gt;
 
-&lt;p&gt;Current development stage&lt;/p&gt;
+&lt;p&gt;현재 개발 진행상태&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;Github blog
+  &lt;li&gt;깃허브 블로그
     &lt;ul&gt;
-      &lt;li&gt;Setting language pack. Added dropdown language options in navbar&lt;/li&gt;
-      &lt;li&gt;When contents are in english it should be seen only english pages utilizing if else statement.&lt;/li&gt;
-      &lt;li&gt;Currently trying to print language setting in main using if statement &lt;br /&gt;
+      &lt;li&gt;언어팩 설정중. navbar 에 언어 두개 드랍다운 메뉴 추가&lt;/li&gt;
+      &lt;li&gt;if else 문 이용하여 en 일때는 계속 en 컨텐츠만 뜨도록 할 것.&lt;/li&gt;
+      &lt;li&gt;메인에서 navbar 위에 if else 문으로 출력 시도중… &lt;br /&gt;
 &lt;a href=&quot;https://octobercms.com/docs/markup/tag-if&quot; target=&quot;_blank&quot; style=&quot;color: red;&quot;&gt;
- Reference
+ 참고링크
 &lt;/a&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Dave Lee</name></author><summary type="html">This is a test post for language plugin.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://daveleee.github.io/jekyll/update/2019/07/28/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-07-28T05:24:57-04:00</published><updated>2019-07-28T05:24:57-04:00</updated><id>http://daveleee.github.io/jekyll/update/2019/07/28/welcome-to-jekyll</id><content type="html" xml:base="http://daveleee.github.io/jekyll/update/2019/07/28/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+  &lt;li&gt;허재가 농구허재
+    &lt;ul&gt;
+      &lt;li&gt;BackbuttonHandler 통해서 백버튼 누르면 앱 종료안되게 작업중…&lt;/li&gt;
+      &lt;li&gt;SettingsActivity 에서 반코트/풀코트/맨바닥 라디오버튼 작업중…
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;갑상선 키퍼
+요구사항&lt;br /&gt;
+1)알람 설정&lt;br /&gt;
+a) 30분 간격 - 물 마시기 / 신거 먹기&lt;br /&gt;
+b) 두시간 간격 - 오줌싸기&lt;br /&gt;
+2)총 마신 물 양 체크&lt;br /&gt;
+물 마시기 체크한거 다 합해서 입원기간 동안 혹은 하루에 총 몇리터 마셧는지 표시 할 수 있으면 좋을듯.
+물 마신량 다 합산해서 알려주는 거 보다 마셔야 할 물 량 초기에 설정 해놓으면 물 마시는거 체크 할때마다 마셔야 할 물 량 깎이면서 물 마셔야 할 남은량 보여줄 수 있으면 더 좋을듯
+&lt;br /&gt;&lt;br /&gt;
+1) 알람 설정&lt;br /&gt;
+a) 30분 간격 - 물 마시기 / 신거 먹기&lt;br /&gt;
+b) 두시간 간격 - 오줌싸기 —&amp;gt; 30분 간격 알람중에서 네번째로 울리는 알람 소리를 다르게 해서 물마시기 / 신거먹기 / 오줌싸기 체크 할 수 있게 하면 좋을 듯&lt;br /&gt;
+2) 총 마신 물 양 체크&lt;br /&gt;
+물 마시기 체크한거 다 합해서 입원기간 동안 혹은 하루에 총 몇리터 마셧는지 표시 할 수 있으면 좋을듯.
+물 마신량 다 합산해서 알려주는 거 보다 마셔야 할 물 량 초기에 설정 해놓으면 물 마시는거 체크 할때마다 마셔야 할 물 량 깎이면서 물 마셔야 할 남은량 보여줄 수 있으면 더 좋을듯&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;center&gt;
+  &lt;img style=&quot;width: 100%;&quot; src=&quot;/img/posts/test/thyroidInstruction1.jpeg&quot; alt=&quot;profile-icon&quot; class=&quot;profile-icon&quot; /&gt; &lt;br /&gt;&lt;br /&gt;
+  &lt;img style=&quot;width: 100%;&quot; src=&quot;/img/posts/test/thyroidInstruction2.jpeg&quot; alt=&quot;profile-icon&quot; class=&quot;profile-icon&quot; /&gt; &lt;br /&gt;
+&lt;/center&gt;</content><author><name>Dave Lee</name></author><summary type="html">언어 플러그인을 위한 테스트 포스트입니다.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://daveleee.github.io/jekyll/update/2019/07/28/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-07-28T05:24:57-04:00</published><updated>2019-07-28T05:24:57-04:00</updated><id>http://daveleee.github.io/jekyll/update/2019/07/28/welcome-to-jekyll</id><content type="html" xml:base="http://daveleee.github.io/jekyll/update/2019/07/28/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
