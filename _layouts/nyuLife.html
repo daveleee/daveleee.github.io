@@ -45,6 +45,7 @@ layout: default
         <!-- NYULife List -->
         {% for post in site.categories.NYULife limit : 5 %}
         <article class="post-preview">
+          {% if site.default_lang == "ko" %}
             {% if post.url %}
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
               <h2 class="post-title">{{ post.title }}</h2>
@@ -55,8 +56,9 @@ layout: default
               <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
             {% endif %}
             </a>
+          {% endif %}
 
-          <!-- {% if site.default_lang == "en" %}
+          {% if site.default_lang == "en" %}
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/en/' }}">
             <h2 class="post-title">{{ post.title }}</h2>
             {% if post.subtitle %}
@@ -65,7 +67,7 @@ layout: default
             <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
             {% endif %}
           </a>
-          {% endif %} -->
+          {% endif %}
 
           <p class="post-meta">Posted by
             {% if post.author %}
