@@ -39,7 +39,7 @@ layout: default
         </ul> -->
 
         <!-- NYULife List -->
-        {% for post in site.categories.NYULife | where:"lang", page.lang limit : 5 %}
+        {% for post in site.categories.NYULife | where:"lang", page.lang %}
         <article class="post-preview">
             {% if post.url %}
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
