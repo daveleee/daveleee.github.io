@@ -1,9 +1,9 @@
 ---
-layout: pageList
+layout: nyuLife
 lang: en
 title: Graduate School in the United States
 description: It is all about graduate school in the US.
 permalink: /nyu_life
-background: '/img/essay/nyuLife/bg-nyulife.png'
+background: '/img/essay/nyuLife/bg-nyulife.jpg'
 categories: NYULife
 ---   
