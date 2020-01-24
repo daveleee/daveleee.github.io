@@ -41,7 +41,7 @@ layout: default
         <!-- NYULife List -->
         {% for post in site.categories.NYULife limit : 5 %}
         <article class="post-preview">
-          {% if site.default_lang == "ko" %}
+          {% if site.default_lang != "en" %}
             {% if post.url %}
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
               <h2 class="post-title">{{ post.title }}</h2>
