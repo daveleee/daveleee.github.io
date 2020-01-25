@@ -1,1 +1,1 @@
-Sitemap: https://daveleee.github.io/sitemap.xml
+Sitemap: http://daveleee.github.io/sitemap.xml
