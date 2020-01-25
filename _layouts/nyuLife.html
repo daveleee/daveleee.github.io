@@ -44,7 +44,7 @@ layout: default
 
         <!-- NYULife List (ko) -->
         {% if site.default_lang == "ko" %}
-        {% for post in site.categories.NYULife limit : 5 %}
+        {% for post in site.categories.NYULife_ko limit : 5 %}
         <article class="post-preview">
             {% if post.url %}
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -74,7 +74,7 @@ layout: default
 
         <!-- NYULife List (en) -->
         {% if site.default_lang == "en" %}
-        {% for post in site.categories.NYULife limit : 5 %}
+        {% for post in site.categories.NYULife_en limit : 5 %}
         <article class="post-preview">
             {% if post.url %}
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/en/' }}">

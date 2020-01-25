@@ -4,7 +4,7 @@ lang: ko
 permalink: /nyu_life/NYULife/2020/01/23
 title:  "뉴욕대에서의 한 학기를 마치며"
 date:   2020-01-23 00:00:00 +0900
-categories: NYULife
-background: '/img/bg-post.jpg'
+categories: NYULife_ko
+background: '/img/essay/nyuLife/bg-nyulife.jpg'
 ---
 과거의 기억을 회상할 때 좋은 것만 기억하고 나쁜 기억은 기억하지 못하는(혹은 미화하는) 현대인의 흔한 질병을 무드셀라 증후군이라고 하는데 이는 현실 도피 심리의 일종이라고 합니다. 시간이 지난 후 나의 첫 학기를 미화하는 <del>그런 불상사</del> 혹은 현실 도피적인 생각을 하기 보다는 정면으로 맞서 더욱 더 단단해지기 위해 이 글을 씁니다. 그 동안의 공부했던 시간들에 비해 훨씬 더 열심히 공부하고 배운 한 학기였습니다. 개강이 조금은 두렵기도 합니다.
