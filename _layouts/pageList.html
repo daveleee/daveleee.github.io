@@ -29,19 +29,10 @@ layout: default
 
         {{ content }}
 
-        <!-- Test: Display posts by category -->
-        <!-- <ul>
-          {% for post in site.categories.githubBlog %}
-            {% if post.url %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endif %}
-          {% endfor %}
-        </ul> -->
-
-        <!-- Github Blog List -->
-        {% for post in site.categories.githubBlog limit : 5 %}
+        <!-- Github Blog List (ko) -->
+        {% if site.default_lang == "ko" %}
+        {% for post in site.categories.githubBlog_ko limit : 5 %}
         <article class="post-preview">
-          {% if site.default_lang == "ko" %}
             {% if post.url %}
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
               <h2 class="post-title">{{ post.title }}</h2>
@@ -51,19 +42,7 @@ layout: default
             {% else %}
               <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
             {% endif %}
-            </a>
-          {% endif %}
-
-          {% if site.default_lang == "en" %}
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/en/' }}">
-            <h2 class="post-title">{{ post.title }}</h2>
-            {% if post.subtitle %}
-            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-            {% else %}
-            <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-            {% endif %}
-          </a>
-          {% endif %}
+            </a>  
 
           <p class="post-meta">Posted by
             {% if post.author %}
@@ -78,7 +57,39 @@ layout: default
 
         <hr>
         {% endfor %}
-        <!-- /. Github Blog List -->
+        {% endif %}
+        <!-- /. Github Blog List (ko) -->
+
+        <!-- Github Blog List (en) -->
+        {% if site.default_lang == "en" %}
+        {% for post in site.categories.githubBlog_ko limit : 5 %}
+        <article class="post-preview">
+           {% if post.url %}
+           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/en/' }}">
+             <h2 class="post-title">{{ post.title }}</h2>
+           {% endif %}
+           {% if post.subtitle %}
+             <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+           {% else %}
+             <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+           {% endif %}
+           </a>
+
+         <p class="post-meta">Posted by
+           {% if post.author %}
+           {{ post.author }}
+           {% else %}
+           {{ site.author }}
+           {% endif %}
+           on
+           {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+         </p>
+        </article>
+
+        <hr>
+        {% endfor %}
+        {% endif %}
+        <!-- /. Github Blog List (en) -->
 
         <!-- Pager -->
         <div class="clearfix">
