@@ -3,9 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-lang: en
-title: aaa
-description: aaa
+lang: en 
 permalink: /en
 background: '/img/bg-index.jpg'
 ---
