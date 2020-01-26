@@ -5,6 +5,7 @@ permalink: /test/multiLanguagePlugin/2019/08/04
 title:  "Test post!"
 date:   2019-08-04 00:00:00 +0900
 categories: jekyll update
+tags: en
 ---
 This is a test post for language plugin.
 

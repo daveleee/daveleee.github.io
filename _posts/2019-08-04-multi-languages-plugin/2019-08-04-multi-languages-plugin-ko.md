@@ -5,6 +5,7 @@ permalink: /test/multiLanguagePlugin/2019/08/04
 title:  "테스트 포스트!"
 date:   2019-08-04 00:00:00 +0900
 categories: jekyll update
+tags: ko
 ---
 언어 플러그인을 위한 테스트 포스트입니다.
 
