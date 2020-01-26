@@ -42,7 +42,7 @@ layout: default
             {% else %}
               <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
             {% endif %}
-            </a>  
+            </a>
 
           <p class="post-meta">Posted by
             {% if post.author %}
@@ -62,7 +62,7 @@ layout: default
 
         <!-- Github Blog List (en) -->
         {% if site.default_lang == "en" %}
-        {% for post in site.categories.githubBlog_ko limit : 5 %}
+        {% for post in site.categories.githubBlog_en limit : 5 %}
         <article class="post-preview">
            {% if post.url %}
            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/en/' }}">
