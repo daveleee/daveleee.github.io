@@ -88,9 +88,9 @@ layout: default
         <!-- /. Home: All Post List (ko) -->
 
         <!-- Home: All Post List (en) -->
-        {% if site.tags == "en" %}
+        {% if site.default_lang == "en" %}
         <!-- {% for post in site.posts.lang.en limit : 5 %} -->
-        {% for post in site.posts limit : 5 %}
+        {% for post in site.tags.en limit : 5 %}
 
         <article class="post-preview">
             {% if post.url %}
