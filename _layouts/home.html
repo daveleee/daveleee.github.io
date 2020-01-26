@@ -57,7 +57,8 @@ layout: default
 
         <!-- Home: All Post List (ko) -->
         {% if site.default_lang == "ko" %}
-        {% for post in site.lang.ko limit : 5 %}
+        {% if site.posts.lang == "ko" %}
+        {% for post in site.posts limit : 5 %}
 
         <article class="post-preview">
             {% if post.url %}
@@ -84,6 +85,7 @@ layout: default
 
         <hr>
         {% endfor %}
+        {% endif %}
         {% endif %}
         <!-- /. Home: All Post List (ko) -->
 
