@@ -57,66 +57,13 @@ layout: default
 
         <!-- Home: All Post List (ko) -->
         {% if site.default_lang == "ko" %}
-        {% for post in site.posts limit : 5 %}
-
-        <article class="post-preview">
-            {% if post.url %}
-            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-              <h2 class="post-title">{{ post.title }}</h2>
-            {% endif %}
-            {% if post.subtitle %}
-              <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-            {% else %}
-              <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-            {% endif %}
-            </a>
-
-          <p class="post-meta">Posted by
-            {% if post.author %}
-            {{ post.author }}
-            {% else %}
-            {{ site.author }}
-            {% endif %}
-            on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-          </p>
-        </article>
-
-        <hr>
-        {% endfor %}
+        ko test
         {% endif %}
         <!-- /. Home: All Post List (ko) -->
 
         <!-- Home: All Post List (en) -->
         {% if site.default_lang == "en" %}
-        <!-- {% for post in site.posts.lang.en limit : 5 %} -->
-        {% for post in site.posts limit : 5 %}
-
-        <article class="post-preview">
-            {% if post.url %}
-            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/en/' }}">
-              <h2 class="post-title">{{ post.title }}</h2>
-            {% endif %}
-            {% if post.subtitle %}
-              <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-            {% else %}
-              <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-            {% endif %}
-            </a>
-
-          <p class="post-meta">Posted by
-            {% if post.author %}
-            {{ post.author }}
-            {% else %}
-            {{ site.author }}
-            {% endif %}
-            on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-          </p>
-        </article>
-
-        <hr>
-        {% endfor %}
+        en test
         {% endif %}
         <!-- /. Home: All Post List (en) -->
 
