@@ -65,10 +65,10 @@ layout: default
 
         <!-- NYULife List (en) -->
         {% if site.default_lang == "en" %}
-        {% for posts in site.categories.NYULife_en limit : 5 %}
+        {% for post in site.categories.NYULife_en limit : 5 %}
         <article class="post-preview">
             {% if post.url %}
-            <a href="{{ post.url | prepend: site.baseurl | replace: 'github.io/', 'github.io/en/' }}">
+            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
               <h2 class="post-title">{{ post.title }}</h2>
             {% endif %}
             {% if post.subtitle %}
