@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: ko
-permalink: /nyu_life/NYULife/2020/01/23
+permalink: /nyu_life/NYULife/2020/01/27
 title:  "석사과정 지원 Q&A"
 date:   2020-01-23 00:00:00 +0900
 categories: NYULife_ko

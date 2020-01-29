@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-permalink: /nyu_life/NYULife/2020/01/23
+permalink: /nyu_life/NYULife/2020/01/27
 title:  "Q&A Session for the admission"
 date:   2020-01-23 00:00:00 +0900
 categories: NYULife_en
