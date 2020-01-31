@@ -4,7 +4,7 @@ lang: en
 permalink: /nyu_life/NYULife/2020/01/27
 title:  "Q&A Session for the admission"
 date:   2020-01-23 00:00:00 +0900
-categories: NYULife_en
+categories: NYULifeEN
 background: '/img/essay/nyuLife/bg-nyulife.jpg'
 ---
 I have got so many questions from folks who were wondering how I was admitted into New York University(NYU). This post is the answer of those questions. Whenever I got the questions, I would update this post. I would like to tell you first that my thoughts and experience are not the absolute answer. If you have any questions after reading my posts and would like to email me, please read this article first :)
