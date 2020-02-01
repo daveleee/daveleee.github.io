@@ -7,18 +7,20 @@ date:   2020-01-23 00:00:00 +0900
 categories: NYULifeEN
 background: '/img/essay/nyuLife/bg-nyulife.jpg'
 ---
-I have got so many questions from folks who were wondering how I was admitted into New York University(NYU). This post is the answer of those questions. Whenever I got the questions, I would update this post. I would like to tell you first that my thoughts and experience are not the absolute answer. If you have any questions after reading my posts and would like to email me, please read this article first :)
-<!--
-이 글은 제가 어떻게 뉴욕대학교에 합격하게 되었는지 지인 혹은 커뮤니티에서 받은 질문들에 대한 답변을 정리하고자 작성되었습니다. 질문을 받을 때마다 계속적으로 이곳에 업데이트 할 예정입니다. 제가 가진 생각과 경험이 절대적이지 않을 수 있다는 것을 문두에 밝힙니다. 혹시 제 블로그 포스트를 읽고 궁금한 점이 있어 이메일 등으로 질문하고자 하신다면 이 글을 먼저 읽고 보내주시면 정말 감사하겠습니다.
+I have got so many questions from folks who were wondering how I was admitted into New York University(NYU). This post is the answer of those questions. Whenever I got the questions, I would update this post. Most importantly, I would like to tell you that my thoughts and experience are not the absolute answer. If you have any questions after reading my posts and would like to email me, please read this article first :)
 <hr>
-**Q. 많이 합격하시고 장학금까지 받으셨는데 혹시 어떤 부분이 가장 합격에 큰 영향을 주셨다고 생각하시나요?**
+**Q. You have got many admissions and even scholarship. What was the most impact factor of the admission?**
 <br>
-A. 합격에 가장 큰 영향을 주는 요소는 '콕 집어서 이것이다' 라고 할 수는 없습니다. 하지만 개인적인 생각으로는 기본적인 점수가 갖추어졌다는 전제하에 글로벌 스탠다드에 맞는 경험이 많으면 유리한 것 같습니다. 이를테면, 한국에서만 유효한 것들이 아닌 세계 어디를 가도 그 효력이 있어보이는 것들이요. 저의 경우에는 미국에서 일을 했었기 때문에 그 기준이 어느정도 충족되었던 것 같습니다. 조금 더 자세히 설명드리자면 미국 대학원에 지원하기 위해서는 크게 5가지 요소가 필요합니다: GPA, 어학 성적(토플/GRE), 이력서(Resume/CV), 에세이(Personal Statement 혹은 Statement of Purpose), 추천서. 그 밖에는 일 경험이나 연구실 경험 등이 있습니다.
+A. I would not say there is one the most impact factor in terms of admission. In my opinion, however, it is more likely to get admission if you have lots of experience that matches to the global standard, given the fact that you have already got the good scores in the test. For instance, this should be the things that have impact on worldwide not limited in one country. In my case, I used to work in America and that might have helped on leveraging my application. To be more specific, there are five factors to prepare the graduate school in the states: GPA, test scores(TOEFL/GRE), resume or CV, essays(personal statement or statement of purpose), and recommendation letters. Otherwise, work experience, lab experience etc.,
 <br>
-저는 지원하는 모든 학교들에 있어 최소 요구사항을 모두 충족하였습니다. GPA의 경우, 보통 4.0 만점에 3.0 이상이면 지원하는데에 큰 무리가 없다는 것이 공통적인 의견입니다. 하지만 예외의 경우도 물론 존재합니다. 예를 들어, 미시간대 앤아버의 경우에는 3.5/4.0 이 최소조건이었습니다. 학교마다 그리고 학과마다 차이가 상이하기 때문에 반드시 학교 서치를 통해 사전에 요강을 숙지하시길 바랍니다.
+I fulfilled the least requirements of all of the schools that I have applied to. In the case of GPA, usually the schools require applicants to get more than 3.0 out of 4.0. Once you get more than 3.0, you are qualified to apply for the graduate school. Yet, there is an exception. For example of the university of michigan ann arbor, the minimum requirement was 3.5 out of 4.0. It really depends on the school and major. I highly recommend you to know all the requirements through school searching.
 <br>
-두 번째, 어학 성적의 경우 토플 100점 이상, GRE 버벌 155점, 퀀트 만점 수준, 라이팅 3.5 이상의 수준이면 (공대기준) 탑스쿨 지원에 큰 무리가 없는 것 같습니다.
+Second, I will elucidate the points of test scores. If you want to apply for top-ranked schools, here is the enough scores below: <br>
+TOEFL: more than 100
+GRE: more than 155 in verbal, almost perfect in quantitative, more than 3.5 in analytical writing. I am not sure of Americans since I applied internationally. Also, it is for the engineering school so do not get so mixed up.
 <br>
+Third, 
+<!--
 세 번째, 이력서는 석사 지원 시, 화려한 장식이나 부연설명 없이 1장으로 마무리 지을 수 있는 이력서가 가장 이상적입니다. 컴퓨터를 전공하는 학생의 경우 LaTeX 를 한 번 사용해 보는 것도 추천합니다. 군더더기 없고 깔끔한 이력서를 작성할 수 있습니다. 저의 이력서는 메뉴 상단의 About 에서 참고하실 수 있습니다.
 <br>
 그리고 에세이에서 가장 중요한 요소는 학교의 요구사항과 양식, 그리고 원하는 인재상(?)에 맞추어 작성하는 것입니다. 학교에서는 전공에 대한 내용이 주를 이루는 에세이를 요구했는데 개인적인 내용이 많이 들어간 자기소개서를 작성하였다면 마이너스 감점 요소가 될 것입니다. 미국 대학원을 목표로 하는 사람들과 함께 자신이 작성한 에세이를 공유하며 피드백을 받는 것도 좋은 방법이고, 첨삭 서비스를 이용하여 완벽함을 도모하는 것 또한 추천하는 방법입니다. 저는 Scribendi 라는 서비스를 이용하였습니다.
