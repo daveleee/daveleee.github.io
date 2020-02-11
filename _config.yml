@@ -21,7 +21,7 @@ email: dl3996@nyu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   A software engineer, hustler, activist, philanthropist
 intro: 지극히 개인적인 블로그입니다. 누구를 위해 블로그를 쓰는게 아니라 단지 한 일을 기록하거나 생각하는 것을 기록할 뿐입니다. 그래서 틀린 것도 많고 여러분과 다른 생각을 가지고 있을 수 있습니다. 비난과 비판보다 지식과 생각을 함께 공유할 수 있으면 좋을 거 같습니다. 피드백은 언제나 환영입니다. 당신의 지식과 생각을 나눠주고 가르쳐 준다면 큰 도움이 될 것 입니다.
-intro_en: A personal blog that deals with Information Technology and stuff. It is not for someone but for documenting what I have done and thought. It could be a different options from yours. It will be great to share knowledge and thoughts rather than criticism. Feedbacks always welcome. It will be really helpful to share your knowledge and ideas.
+intro_en: A personal blog that deals with Information Technology and stuff. It is not for someone but for documenting what I have done and thought. It could be a different opinion from yours. It will be great to share knowledge and thoughts rather than criticism. Feedbacks always welcome. It will be really helpful to share your knowledge and ideas.
 baseurl: "/" # the subpath of your site, e.g. /blog
 # {% if online == false %}
 #     <p>The website is in maintenance mode.</p>
