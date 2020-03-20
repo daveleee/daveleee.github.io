@@ -7,8 +7,7 @@ date:   2019-12-28 00:00:00 +0900
 categories: githubBlog_en
 background: '/img/tech/githubBlog/bg-githubBlog.jpg'
 ---
-<h1> Overview </h1>
-<br>
+<h1> Overview </h1> 
 - In order to install GitHub blog, you have to install theme and create a basic project first. In case of my blog, jekyll theme has been installed on Mac OS.
 <br>
 
