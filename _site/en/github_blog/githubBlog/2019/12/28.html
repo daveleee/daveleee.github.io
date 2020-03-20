@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>
-    Started GitHub Blog! - Dave Lee
+    Jekyll Installation - Dave Lee
     
   </title>
 
-  <meta name="description" content="My first post for github blog!!!">
+  <meta name="description" content="Overview In order to install GitHub blog, you have to install theme and create a basic project first. In case of my blog, jekyll theme has been installed on ...">
 
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="https://daveleee.github.io/github_blog/githubBlog/2019/12/28">
+  <link rel="canonical" href="http://localhost:4000/github_blog/githubBlog/2019/12/28">
   <link rel="alternate" type="application/rss+xml" title="Dave Lee" href="/feed.xml">
 
   <!-- Google Search Console -->
@@ -125,13 +125,13 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1>Started GitHub Blog!</h1>
+            <h1>Jekyll Installation</h1>
             
             <span class="meta">Posted by
               <a href="#">Dave Lee</a>
               on December 27, 2019 &middot; <span class="reading-time" title="Estimated read time">
   
-   1 min  read </span>
+   2 mins  read </span>
 
             </span>
           </div>
@@ -144,7 +144,94 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
 
-        <p>My first post for github blog!!!</p>
+        <h1> Overview </h1>
+<p><br /></p>
+<ul>
+  <li>In order to install GitHub blog, you have to install theme and create a basic project first. In case of my blog, jekyll theme has been installed on Mac OS.
+<br /></li>
+</ul>
+
+<h2> Installation </h2>
+<hr />
+
+<p>Jekyll can be installed on Mac OS, Windows, and Linux Ubuntu. Here are some tips how to install jekyll on Mac and Windows. Most of the processes are same. If you want to get more information regarding theme, you can directly check the <a href="https://jekyllrb.com/docs/installation/" target="_blank">jekyll website.</a>
+<br /></p>
+
+<h2> Version </h2>
+<hr />
+
+<p>Currently, my blog uses the following version.
+<br /></p>
+<ul style="list-style-type:disc;">
+    <li>Ruby: ruby 2.6.3p62</li>
+    <li>Jekyll: jekyll-3.8.6</li>
+  </ul>
+<p><br /></p>
+
+<h2> Ruby Installation </h2>
+<hr />
+
+<p>Since jekyll is the one of Ruby Gems, you need to install Ruby first.
+<br /></p>
+
+<h3> Install Ruby on Mac </h3>
+<p><code> brew install ruby </code></p>
+
+<h3> Install Ruby on Windows </h3>
+<ul style="list-style-type:disc;">
+    <li>Use Ruby installer.</li>
+    <li>Download: RubyInstaller for Windows</li>
+    <li>Install Ruby + Devkit version 2.4 or higher.</li>
+  </ul>
+
+<h3> Check Ruby installed </h3>
+<p><code> ruby -v </code>
+<br /></p>
+
+<h2> Jekyll Ruby Gem Installation </h2>
+<hr />
+
+<p>If you successfully installed Ruby, you could install Jekyll Gem by utilizing Ruby.
+<br /></p>
+
+<h3> Jekyll Ruby Gem Installation </h3>
+<p><code> gem install bundler jekyll </code></p>
+
+<h3> Check Jekyll Ruby Gem installed successfully </h3>
+<p><code> jekyll -v OR jekyll --version  </code>
+<br /></p>
+
+<h2> Create a basic project by Jekyll Gem </h2>
+<hr />
+
+<h3> Create a project </h3>
+<p>You can create jekyll project by jekyll new [project name] command</p>
+
+<p><code> jekyll new daveleee.github.io </code>
+  And then you can find the directory of your new project following the command below:
+  <code> cd daveleee.github.io </code>
+  Here’s some default directory files once you successfully created a new project:
+  <code>
+  |-- posts
+  | |-- 2020-03-19-hello-jekyll.markdown
+  |-- .gitignore
+  |-- 404.html
+  |-- about.md
+  |-- index.md
+  |-- Gemfile
+  |-- Gemfile.lock
+  </code>
+<br /></p>
+
+<h3> How to start Jekyll </h3>
+<p><code> bundle exec jekyll serve </code>
+  Once it is started, you could access to “http://127.0.0.1:4000”, which is a local server by opening a browser.
+<br /></p>
+
+<h2> Reference </h2>
+<hr />
+
+<p>Jekyll official website: <a href="https://jekyllrb.com/" target="_blank"> https://jekyllrb.com </a></p>
 
 
         <hr>
