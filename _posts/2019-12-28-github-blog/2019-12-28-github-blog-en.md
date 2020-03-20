@@ -7,8 +7,9 @@ date:   2019-12-28 00:00:00 +0900
 categories: githubBlog_en
 background: '/img/tech/githubBlog/bg-githubBlog.jpg'
 ---
-<h1> Overview </h1> 
+<h1> Overview </h1>
 - In order to install GitHub blog, you have to install theme and create a basic project first. In case of my blog, jekyll theme has been installed on Mac OS.
+<br>
 <br>
 
 <h2> Installation </h2>
@@ -23,8 +24,7 @@ Jekyll can be installed on Mac OS, Windows, and Linux Ubuntu. Here are some tips
   <ul style="list-style-type:disc;">
     <li>Ruby: ruby 2.6.3p62</li>
     <li>Jekyll: jekyll-3.8.6</li>
-  </ul>   
-<br>
+  </ul>    
 
 
 <h2> Ruby Installation </h2>
@@ -58,6 +58,7 @@ Jekyll can be installed on Mac OS, Windows, and Linux Ubuntu. Here are some tips
 <h3> Check Jekyll Ruby Gem installed successfully </h3>
   <code> jekyll -v OR jekyll --version  </code>
 <br>
+<br>
 
 <h2> Create a basic project by Jekyll Gem </h2>
 <hr>
@@ -65,23 +66,36 @@ Jekyll can be installed on Mac OS, Windows, and Linux Ubuntu. Here are some tips
   You can create jekyll project by jekyll new [project name] command
 
   <code> jekyll new daveleee.github.io </code>
+  <br>
   And then you can find the directory of your new project following the command below:
+  <br>
   <code> cd daveleee.github.io </code>
+  <br>
   Here's some default directory files once you successfully created a new project:
+  <br>
   <code>
   |-- posts
+  <br>
   | |-- 2020-03-19-hello-jekyll.markdown
+  <br>
   |-- .gitignore
+  <br>
   |-- 404.html
+  <br>
   |-- about.md
+  <br>
   |-- index.md
+  <br>
   |-- Gemfile
+  <br>
   |-- Gemfile.lock
+  <br>
   </code>
 <br>
 
 <h3> How to start Jekyll </h3>
   <code> bundle exec jekyll serve </code>
+  <br>
   Once it is started, you could access to "http://127.0.0.1:4000", which is a local server by opening a browser.
 <br>
 
